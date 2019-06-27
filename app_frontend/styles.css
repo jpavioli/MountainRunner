@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80%;
+  background-color: skyblue;
+  overflow: hidden;
+}
+
+header {
+  background-color: #4caf50;
+  margin: 0 auto;
+  height: 50px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #4caf50;
+}
+
+canvas {
+  width:100%;
+  height:80%;
+  z-index:-2;
+}
+
+select
+{
+  background:rgb(253, 175, 6);
+  background-image: linear-gradient(to bottom, rgb(253, 175, 6), #2079b0);
+  text-shadow: 3px 2px 1px #9daef5;
+  box-shadow: 6px 5px 24px #666666;
+  color: navy;
+  font-family: pixelFont;
+  font-size: 18px;
+  height: 64px;
+  padding: 19px;
+}
+
+select:hover
+{
+  background: #2079b0;
+  background-image: linear-gradient(to bottom, #2079b0, rgb(253, 175, 6));
+}
+
+input[type=text]
+{
+  background:rgb(253, 175, 6);
+  background-image: linear-gradient(to bottom, rgb(253, 175, 6), #2079b0);
+  border-radius: 28px;
+  text-shadow: 3px 2px 1px #9daef5;
+  box-shadow: 6px 5px 24px #666666;
+  color: navy;
+  font-family: pixelFont;
+  font-size: 15px;
+  padding: 10px;
+}
+
+#score
+{
+  font-family: pixelFont;
+  font-size: 20px;
+  color: navy
+}
+
+.submit
+{
+  background:rgb(253, 175, 6);
+  background-image: linear-gradient(to bottom, rgb(253, 175, 6), #2079b0);
+  border-radius: 28px;
+  text-shadow: 3px 2px 1px #9daef5;
+  box-shadow: 6px 5px 24px #666666;
+  color: navy;
+  font-family: pixelFont;
+  font-size: 22px;
+  padding: 19px;
+}
+
+.submit:hover
+{
+  background: #2079b0;
+  background-image: linear-gradient(to bottom, #2079b0, rgb(253, 175, 6));
+}
+
+h3
+{
+  color: rgb(253, 175, 6);
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 10px darkblue;
+}
+
+h1
+{
+  color: darkblue
+}
+
+h2
+{
+  color: darkblue
+  font-size: 30px
+}
+
+button
+{
+  background:rgb(253, 175, 6);
+  background-image: linear-gradient(to bottom, rgb(253, 175, 6), #2079b0);
+  border-radius: 28px;
+  text-shadow: 3px 2px 1px #9daef5;
+  box-shadow: 6px 5px 24px #666666;
+  color: navy;
+  font-family: pixelFont;
+  font-size: 16px;
+  padding: 19px;
+}
+
+button:hover
+{
+  background: #2079b0;
+  background-image: linear-gradient(to bottom, #2079b0, rgb(253, 175, 6));
+}
+
+@font-face
+{
+  font-family: pixelFont;
+  src: url("assets/texts/alagard_by_pix3m-d6awiwp.ttf")
+}
+.container {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  height: 70%;
+  display: table;
+  text-align: center;
+  padding: 1rem;
+  font-size: 45px;
+  font-family: pixelFont;
+  background-image: url("assets/background/Grassy_Mountains_preview_fullcolor.png"), url("assets/background/panel.png");
+  background-size: contain, 1150px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* object-fit: contain; */
+  z-index: 1;
+  opacity: .8;
+}
+
+#top-10
+{
+  font-size: 15px;
+}
+
+li
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
